@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Hub</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #e9ecef, #f8f9fa);
+            color: #343a40;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #000000; /* Changed to black */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700; /* Gold color for hover */
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto; /* Centering the main content */
+        }
+
+        section {
+            background: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            display: flex;
+            align-items: center;
+        }
+
+        section:hover {
+            transform: scale(1.02); /* Slightly enlarges section on hover */
+        }
+
+        h2 {
+            color: #000000; /* Changed to black */
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            flex: 1; /* Allows text to grow and take available space */
+        }
+
+        button {
+            background: linear-gradient(90deg, #000000, #333333); /* Black gradient */
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            font-size: 1rem; /* Larger font size for buttons */
+            margin-left: 10px; /* Adds space between text and button */
+        }
+
+        button:hover {
+            background: #333333; /* Darker black on hover */
+            transform: translateY(-2px); /* Slightly lifts button on hover */
+        }
+
+        img {
+            width: 100px; /* Fixed size for images */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Space between image and text */
+            border-radius: 5px; /* Rounded corners for images */
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #000000; /* Changed to black */
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px; /* Added margin to separate footer from content */
+        }
+
+        footer a {
+            color: #ffd700; /* Gold color for footer links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline; /* Underline on hover for better visibility */
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem; /* Responsive font size */
+            }
+
+            section {
+                flex-direction: column; /* Stack elements vertically on small screens */
+                align-items: flex-start; /* Align items to the left */
+            }
+
+            img {
+                margin: 0 0 10px 0; /* Adjust margins for smaller screens */
+            }
+
+            button {
+                width: 100%; /* Full-width buttons on small screens */
+                margin-left: 0; /* Reset margin */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gaming Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#number-guessing-game">Number Guessing Game</a></li>
+                <li><a href="#rock-paper-scissors">Rock, Paper, Scissors</a></li>
+                <li><a href="#dice-roller">Dice Roller</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="number-guessing-game">
+            <img src="C:\Shiva\Projects\HTML\Projects HTMLCSS\game_hub\guess_number.png" alt="Number Guessing Game">
+            <div>
+                <h2>Number Guessing Game</h2>
+                <p>Challenge yourself to guess the number selected by the computer within a certain range!</p>
+                <button onclick="alert('Game in development!')">Play Now</button>
+            </div>
+        </section>
+
+        <section id="rock-paper-scissors">
+            <img src="C:\Shiva\Projects\HTML\Projects HTMLCSS\game_hub\rock_paper_scissors.jpeg" alt="Rock Paper Scissors">
+            <div>
+                <h2>Rock, Paper, Scissors</h2>
+                <p>Compete against the computer in this classic game of chance!</p>
+                <button onclick="alert('Game in development!')">Play Now</button>
+            </div>
+        </section>
+
+        <section id="dice-roller">
+            <img src="C:\Shiva\Projects\HTML\Projects HTMLCSS\game_hub\dice.png" alt="Dice Roller">
+            <div>
+                <h2>Dice Roller</h2>
+                <p>Roll a virtual die and see what you get! Perfect for any game night.</p>
+                <button onclick="alert('Game in development!')">Play Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gaming Hub. All rights reserved.</p>
+        <p>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

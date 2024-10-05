@@ -21,7 +21,7 @@ Gaming Hub Website is a beginner-friendly web project showcasing three classic g
 
 ## Output of the Website
 
-- For an overview of the website and its features, please check the files section named **`website_overview`**.
+- For an overview of the website and its features, please check the files section named [**Website_Overview1.png**](https://github.com/shivakumarmurarishetti/game_hub_website/blob/main/Website_Overview1.png).[Website_Overview2.png](https://github.com/shivakumarmurarishetti/game_hub_website/blob/main/Website_Overview2.png)
 
 ## Technologies Used
 
